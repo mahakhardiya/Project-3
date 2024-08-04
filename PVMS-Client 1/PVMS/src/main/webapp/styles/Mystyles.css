@@ -1,0 +1,47 @@
+.btn-secondary:hover {
+	background-color: #555;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+	.navbar-nav {
+		flex-direction: column;
+	}
+
+	.nav-item {
+		margin-bottom: 10px;
+	}
+}
+
+/* Desktop view */
+@media (min-width: 769px) {
+	.navbar-nav {
+		flex-direction: row;
+		justify-content: flex-end;
+		/* Align items to the right */
+	}
+
+	.nav-item {
+		margin-right: 10px;
+	}
+}
+
+#popup {
+	display: none;
+	position: fixed;
+	top: 20%;
+    width: 405px;
+    height: 200px;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	z-index: 1000; /* ensure it appears above other content */
+}
+#popup img {
+	position: absolute;
+	top: -65px; /* adjust this value as per your requirement */
+	left: 50%;
+	transform: translateX(-50%);
+}
