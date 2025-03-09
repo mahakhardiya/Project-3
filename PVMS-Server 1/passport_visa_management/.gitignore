@@ -4,6 +4,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 PVMS-Server 1/passport_visa_management/src/main/resources/application.properties
+*.properties
+*.env
+*.json
 
 ### STS ###
 .apt_generated
