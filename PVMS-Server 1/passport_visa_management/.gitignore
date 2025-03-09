@@ -3,7 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-pom.xml
+PVMS-Server 1/passport_visa_management/src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
